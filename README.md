@@ -2,19 +2,13 @@
 
 🔥 **The discount daemon for pi - always watching for the next deal.**
 
+<p align="center">
+  <img src="assets/preview.png" alt="pi-discountd - Deal of the Day" width="720" />
+</p>
+
 Hot-swap discounted models into your session with one command. `discountd`
 reads OpenRouter's live discount feed, pins the **Deal of the Day** at the top,
 and lets you pick any model to activate instantly.
-
-```
-🔥 Deal of the Day - 90% off upstage/solar-pro4 (Upstage) · $0.030/M in / $0.12/M out
-
-| type | off  | model                | provider | in       | out    |
-|------|------|----------------------|----------|----------|--------|
-| code | 90%  | upstage/solar-pro4   | Upstage  | $0.030/M | $0.12/M |
-| code | 77%  | deepseek/deepseek-v4-pro | StreamLake | $0.40/M | $0.79/M |
-| ...  |      |                      |          |          |        |
-```
 
 ## Install
 
