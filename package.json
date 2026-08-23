@@ -1,6 +1,6 @@
 {
   "name": "pi-discountd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The discount daemon for pi - hot-swap discounted models into your session. Always watching for the next deal.",
   "keywords": [
     "pi-package",
@@ -24,6 +24,7 @@
     "LICENSE"
   ],
   "pi": {
-    "extensions": ["./extensions"]
+    "extensions": ["./extensions"],
+    "image": "https://raw.githubusercontent.com/dtabolich/pi-discountd/main/assets/preview.png"
   }
 }
