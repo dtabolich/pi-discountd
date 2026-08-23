@@ -1,0 +1,29 @@
+{
+  "name": "pi-discountd",
+  "version": "0.1.0",
+  "description": "The discount daemon for pi - hot-swap discounted models into your session. Always watching for the next deal.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "openrouter",
+    "deals",
+    "discounts",
+    "models",
+    "pricing",
+    "llm"
+  ],
+  "license": "MIT",
+  "author": "dtabolich <dtabolich@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtabolich/pi-discountd.git"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
