@@ -1,6 +1,6 @@
 # pi-discountd
 
-🔥 **The discount daemon for pi - always watching for the next deal.**
+🏷️ **The discount daemon for pi - always watching for the next deal.**
 
 <p align="center">
   <img src="assets/preview.png" alt="pi-discountd - Deal of the Day" width="720" />
@@ -23,7 +23,7 @@ Requires no API key for the deal listings. Activating OpenRouter-only models
 
 | Command | What it does |
 |---|---|
-| `/discountd` | 🔥 Deal of the Day + coding-focused deals |
+| `/discountd` | 🏷️ Deal of the Day + coding-focused deals |
 | `/discountd or` | OpenRouter deals (the default source) |
 | `/discountd all` | All discounted models, sorted by discount |
 | `/discountd free` | Free models ($0 tokens) |
