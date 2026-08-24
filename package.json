@@ -1,6 +1,6 @@
 {
   "name": "pi-discountd",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The discount daemon for pi - hot-swap discounted models into your session. Always watching for the next deal.",
   "keywords": [
     "pi-package",
@@ -17,6 +17,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dtabolich/pi-discountd.git"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test --experimental-strip-types test/discountd.test.ts"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
   },
   "files": [
     "extensions",

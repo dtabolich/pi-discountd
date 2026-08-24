@@ -22,7 +22,7 @@ Requires no API key for the deal listings. Activating OpenRouter-only models
 ## Usage
 
 | Command | What it does |
-|---|---|
+| --- | --- |
 | `/discountd` | 🏷️ Deal of the Day + coding-focused deals |
 | `/discountd or` | OpenRouter deals (the default source) |
 | `/discountd all` | All discounted models, sorted by discount |
@@ -39,10 +39,7 @@ Requires no API key for the deal listings. Activating OpenRouter-only models
 - Classifies coding models from OpenRouter's per-model "programming" usage
   analytics plus slug/name heuristics.
 - Caches locally (deals 6h, full catalog 24h); works offline on stale cache.
-- `pick` activates a model three ways:
-  1. already in your pi registry → set directly
-  2. not in registry + OpenRouter key set → registered on the fly and activated
-  3. otherwise → hints at how to configure the key
+- `pick` registers the chosen OpenRouter deal model on the fly and activates it in your session (requires OpenRouter API key or `/login openrouter`).
 
 ## Scope
 
